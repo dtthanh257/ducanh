@@ -1,0 +1,30 @@
+.container-employ {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.container-employ-title {
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.container-content {
+    background-color: #ffffff;
+    margin-top: 16px;
+    padding-top: 12px;
+}
+
+.container-content-action {
+    padding: 0 12px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    column-gap: 12px;
+}
+
+.employ-form-container {
+    padding: 24px 24px;
+    padding-bottom: 12px;
+}

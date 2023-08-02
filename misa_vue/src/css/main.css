@@ -1,0 +1,42 @@
+@import url(./layout.css);
+@import url(./button.css);
+@import url(./container.css);
+@import url(./textfield.css);
+@import url(./table.css);
+@import url(./form.css);
+@import url(./bootstrap.css);
+@import url(./icon.css);
+@import url(./header.css);
+@import url(./dialog.css);
+@import url(./tooltip.css);
+@import url(./toast.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 13px;
+    font-family: Misa fonts;
+}
+
+@font-face {
+    font-family: Misa fonts;
+    src: url(../assets/fonts/notosans-regular.2cb88a13.woff2);
+}
+
+:root {
+    --color-primary: #50B83C;
+    --color-hover: #57c841;
+    --color-focus: #067933;
+    --color-boder-default: #E0E0E0;
+    --color-active: #067933;
+    --color-fix-button: #0075C0;
+    --color-textfield-error: #E61D1D;
+    --color-wrapper: #E4E9E7;
+    --color-error: red;
+    --color-input-hover: #F6F6F6;
+    --color-input-placeholder: #9E9E9E;
+    --color-table-hover: #F2F2F2;
+    --color-nav-item-hover: #353B34;
+    --color-table-header: #f5f5f5;
+    --color-textfiled: #EBEBEB;
+}
